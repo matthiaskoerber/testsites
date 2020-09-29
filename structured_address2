@@ -1,0 +1,69 @@
+<style type="text/css">
+td
+{
+    padding:0 35px;
+}
+</style>
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!-- DO NOT SUBMIT: Fix Page Title. Missing tags? http://go/optional-html -->
+<title>Page Title</title>
+<table>
+  <tr>
+    <td><h1>Unstructured Form</h1> </td>
+    <td><h1>Structured Form</h1> </td>
+    <td><h1>Unlabeled Form</h1> </td>
+  </tr>
+  <tr>
+    <td>
+<form>
+  <label for="name">Name: </label><br>
+  <input size=35 type="text" id="name" name="name"><br>
+  <label for="city">City:</label><br>
+  <input size=35 type="text" id="city" name="city"><br>
+  <label for="address">Address:</label><br>
+  <input size=35 type="text" id="address" name="address"><br>
+  <label for="zip">ZIP:</label><br>
+  <input size=35 type="text" id="zip" name="zip"><br>
+  <label for="state">state:</label><br>
+  <input size=35 type="text" id="state" name="state"><br>
+  <label for="country">Country:</label><br>
+  <input size=35 type="text" id="country" name="country"><br>
+  <button type="submit" value="Submit">Submit</button>
+</form>
+    </td>
+    <td>
+<form>
+  <label for="name">Name: </label><br>
+  <input size=35 type="text" id="name" name="name"><br>
+  <label for="city">City:</label><br>
+  <input size=35 type="text" id="city" name="city"><br>
+  <label for="address_street_name">Street Name:</label><br>
+  <input size=35 type="text" id="address_street_name" name="address_street_name"><br>
+  <label for="house_number">House Number::</label><br>
+  <input size=35 type="text" id="house_number" name="house_number"><br>
+  <label for="zip">ZIP:</label><br>
+  <input size=35 type="text" id="zip" name="zip"><br>
+  <label for="state">state:</label><br>
+  <input size=35 type="text" id="state" name="state"><br>
+  <label for="country">Country:</label><br>
+  <input size=35 type="text" id="country" name="country"><br>
+  <button type="submit" value="Submit">Submit</button>
+</form>
+    </td>
+   <td>
+<form>
+  <input size=35  type="text" id="a" name="a"><br>
+  <input size=35  type="text" id="b" name="b"><br>
+  <input size=35  type="text" id="c" name="c"><br>
+  <input size=35  type="text" id="d" name="d"><br>
+  <input size=35  type="text" id="e" name="e"><br>
+  <input size=35  type="text" id="f" name="f"><br>
+  <input size=35  type="text" id="g" name="g"><br>
+  <input size=35  type="text" id="h" name="h"><br>
+  <input size=35  type="text" id="i" name="i"><br>
+  <button type="submit" value="Submit">Submit</button>
+</form>
+    </td>
+  </tr>
